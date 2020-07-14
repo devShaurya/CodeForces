@@ -3,6 +3,9 @@
 2. It uses equivalence classes and comparision between smaller subtrings of size 2^k (using equivalence class) for comparision
 	b/w strings of length 2^(k+1). It uses inbuilt sorting algorithm of python which is TimSort
 3. its time complexity is nlog^2(n).
+
+4. Key takeaway to use equivalence classes for comaprision b/w strings. and for code addition > bit shifting. So do bit shifting first 
+then addition.
 '''
 
 def solve(string):
